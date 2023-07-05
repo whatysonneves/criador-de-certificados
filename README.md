@@ -1,8 +1,8 @@
-**README.md**
+# Criador de Certificados SSL/TLS
 
 Este projeto facilita a criação de certificados usando o OpenSSL no Windows. O objetivo principal é simplificar o processo de criação de Certificados de Autoridade Raiz (Root CA) e Certificados SSL/TLS para uso em desenvolvimento local ou em redes internas.
 
-**Funcionalidades:**
+## Funcionalidades:
 
 1. Verificação e instalação do OpenSSL:
    - O script verifica se o OpenSSL está instalado no sistema.
@@ -25,21 +25,17 @@ Este projeto facilita a criação de certificados usando o OpenSSL no Windows. O
    - O OpenSSL será usado para gerar a chave privada, a solicitação de certificado (CSR) e o certificado assinado usando a Root CA.
    - Os arquivos resultantes serão salvos com base no nome do domínio fornecido.
 
-**Instruções de Uso:**
+## Instruções de Uso:
 
 1. Certifique-se de ter o OpenSSL instalado no sistema.
 2. Execute o arquivo de lote `Criador de Certificados.bat` para iniciar o script.
 3. Siga as instruções apresentadas pelo script para criar certificados e configurar a Root CA.
 4. Ao criar um novo certificado, os arquivos resultantes serão salvos no diretório atual.
 
-**Observações:**
+## Observações:
 
 - Os certificados gerados por este script são adequados apenas para uso em ambientes de desenvolvimento ou em redes internas. Eles não são adequados para implantação em um ambiente de produção real.
 
-**Importante:**
+## Importante:
 
 - O uso de certificados SSL/TLS autoassinados ou emitidos por uma Autoridade de Certificação interna pode não ser reconhecido por todos os clientes/browsers. Portanto, ao utilizar esses certificados em um ambiente de produção ou em aplicações acessíveis publicamente, é recomendável obter um certificado de uma Autoridade de Certificação confiável.
-
-**Licença:**
-
-Este projeto está disponível sob a [licença MIT](https://github.com/whatysonneves/criador-de-certificados/blob/main/LICENSE).

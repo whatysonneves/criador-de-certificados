@@ -1,6 +1,8 @@
+Instalar Certificado Raiz.bat
 *.cer
+*.cnf
+*.crt
+*.ext
 *.key
 *.pem
 *.srl
-*.crt
-Instalar Certificado Raiz.bat
